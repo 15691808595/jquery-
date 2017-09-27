@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+        }
+        div{
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<ul>
+    <li>123</li>
+    <li class="bo">123</li>
+    <li>123</li>
+    <li>123</li>
+    <li>123</li>
+</ul>
+
+
+<script src="test4.js"></script>
+<script>
+    $(function () {
+        $("ul").find('.bo').css('background','red')
+    })
+</script>
+
+</body>
+
+</html>
